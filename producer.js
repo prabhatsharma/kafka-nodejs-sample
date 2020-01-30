@@ -15,7 +15,7 @@ f1()
 async function f1() {
   await producer.connect()
   await producer.send({
-    topic: 'AWSKafkaTutorialTopic',
+    topic: 'jsapp1',
     messages: [
       { value: 'Hello from KafkaJS user!' },
     ],

@@ -15,7 +15,7 @@ f1()
 async function f1 () {
     await consumer.connect()
     await consumer.subscribe({
-      topic: 'AWSKafkaTutorialTopic',
+      topic: 'jsapp1',
     })
 
     await consumer.run({
